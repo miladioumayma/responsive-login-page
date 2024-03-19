@@ -1,0 +1,104 @@
+#butt1{
+    width: 200px;
+    height: 30px;
+    background-color:#1877f2;
+    color: white;
+    border-radius:4px ;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    border-color: #ccc;
+    border-width: 0.5px;
+}
+#butt2{
+    width:200px;
+    height: 30px;
+    color:gray;
+    background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+    margin-bottom: 10px;
+    border-color: #ccc;
+    border-width: 0.5px;
+}
+#butt3{
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border-color: #ccc;
+    border-width: 0.5px;
+}
+#img{
+    width: 15px;
+    height:15px ;
+}
+#sign{
+    width: 240px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border-color: #ccc;
+    border-width: 0.5px;
+    background-color: #be2ab2;
+}
+input[type="Email"],
+input[type="Password"],
+textarea {
+    background-color: gray; 
+    opacity: 40%;
+    border: 1px solid #cccccc;
+    padding: 5px; 
+    margin-bottom: 10px;
+    width: 240px;
+    height: 25px;
+    margin-top: 10px;
+}
+input[type="Email"]::placeholder,
+input[type="Password"]::placeholder {
+    color: rgba(255, 255, 255, 0.959); 
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+  .item1 , .item2{
+    flex: 1;
+  }
+
+  .item2{
+    background-image: url("416362675_914224676864088_6379027830014232530_n.png");
+    background-size: cover;
+    height: 100vh;
+  }
+  *{ 
+    margin: 0;
+    padding: 0;
+  }
+  .item1{
+    text-align:  center;
+    justify-content: center;
+  align-items: center;
+  background-color: #3e247c5d;
+
+  }
+  h1{
+    margin-top: 100px;
+  }
+  
+  @media(max-width:768px){
+    .container{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .item1 , .item2{
+        flex: none;
+        width: 100%;
+    }
+    .item2{
+        height: 200px;
+    }
+  }
